@@ -1,0 +1,18 @@
+{
+  "env": {
+    "project": "cypress-demo"
+  },
+  "integrationFolder": "cypress/integration",
+  "testFiles": "tests/*.spec.js",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/test-output-[hash].xml"
+  },
+  "video": true,
+  "videoCompression": 32,
+  "videoUploadOnPasses": true,
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "watchForFileChanges": true,
+  "projectId": "xu5pgm"
+}

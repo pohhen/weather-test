@@ -1,0 +1,24 @@
+{
+  "name": "weather-test",
+  "version": "1.0.0",
+  "description": "Cypress demo",
+  "main": "",
+  "scripts": {
+    "open": "npx cypress open",
+    "tests": "npx cypress run",
+    "verify": "npx cypress verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pohhen//weather-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pohhen//weather-test/issues"
+  },
+  "homepage": "https://github.com/pohhen//weather-test#readme",
+  "dependencies": {
+    "cypress": "^3.3.2"
+  }
+}
